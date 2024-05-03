@@ -130,6 +130,8 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+/* Початок пешої секції */
 .section-one {
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
@@ -802,7 +804,7 @@ margin: 0 auto;
   @media (min-width: 319px) and (max-width: 765px) {
     .container { 
       width: 100%;
-      height: 56px;
+      
       padding: 16px;
     
     }
@@ -825,10 +827,26 @@ margin: 0 auto;
     
     .nav-menu, .address {display: none;}
     
+    .section-one {
+      padding: 72px 0;
+      max-width: 765px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)), 
+  url(../images/people-officex2.jpg);
+    }
 
+    .main-title {
+    
+      font-size: 36px;
+      line-height: 1.07;
+      text-align: center;
+      letter-spacing: 0.02em;
+      max-width: 216px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 48px;
+    }
 
 
   }
-  @media (min-width: 765px){
-    .mobile {display: none;}
-  }
+  @media (min-width: 765px) {.mobile {display: none;}}
