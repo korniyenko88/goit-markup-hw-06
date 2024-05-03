@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 h1,
 h2,
 h3,
@@ -522,6 +523,8 @@ g .section-three {
 
 
 
+
+
  /* Модальне вікно */
  .modal-overlay.is-open{
   opacity: 1;
@@ -792,4 +795,40 @@ margin: 0 auto;
 
   .icon-button-subscribe {
     margin-left: 16px;
+  }
+
+
+  /* Адаптивний дизайн */
+  @media (min-width: 319px) and (max-width: 765px) {
+    .container { 
+      width: 100%;
+      height: 56px;
+      padding: 16px;
+    
+    }
+    .mobile {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: transparent;
+      width: 24px;
+      height: 24px;
+      border: none;
+      padding: 0;
+     
+    }
+      
+    
+    .nav-menu, .address {display: none;}
+    
+
+
+
+  }
+  @media (min-width: 765px){
+    .mobile {display: none;}
   }
