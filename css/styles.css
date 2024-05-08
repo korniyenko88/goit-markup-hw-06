@@ -1081,3 +1081,86 @@ align-items: center;
 
 
 }
+@media (min-width: 319px) and (max-width: 765px) {
+  .modal {
+
+width: 288px;
+height: 623px;
+z-index: 9999;
+  }
+}
+
+/* Мобільне меню */
+.modal-mobile.is-open {
+  opacity: 1;
+  pointer-events: auto; 
+}
+
+.modal-mobile {
+  width: 320px;
+height: 640px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+position: absolute;
+top: 50%;
+left: 50%; 
+transform: translate(-50%, -50%);
+padding-top: 72px;
+padding-left: 16px;
+transition: opacity 250ms ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav-mobile-menu {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 40px;
+margin-bottom: 168px;
+
+}
+.address-link-mobile {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+font-size: 36px;
+line-height: 111%;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.item-mobile-first {
+  color: #404bbf;
+}
+
+.address-mobile-link {
+  text-decoration: none;
+  font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.address-mobile-link-first {
+  color: #4d5ae5;
+}
+
+.mobile-contact-list {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 24px;
+padding-bottom: 48px;
+}
+.social-list-mobile {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+padding-bottom: 40px;
+}
