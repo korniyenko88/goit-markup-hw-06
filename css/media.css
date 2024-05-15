@@ -211,7 +211,7 @@ letter-spacing: 0.02em;
 }
 .section-two {
   padding: 120px 0;
-  width: 1128px;
+  margin: 0 auto;
 }
 .features-list {
   display: flex;
