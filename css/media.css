@@ -163,16 +163,13 @@
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
  
   }
   .nav-logo {
     margin-right: 72px;
 }
-.header-nav {
-  width: auto;
-  
-}
+
 
 .address-link {
   font-weight: 400;
@@ -181,13 +178,18 @@ line-height: 150%;
 letter-spacing: 0.02em;
 
 }
-
+.button {
+  margin-bottom: 0;
+}
 .section-one {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)), url('../images/officedestop1.jpg');
+  padding-bottom: 188px;
+  padding-top: 188px;
+  height: 600px;
 }
 .section-two-icon{
   display: flex;
@@ -250,33 +252,64 @@ color: #434455;
 .section-four {
   padding: 120px 0;
 }
-
-.portfolio-list {
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 40px 0;
-        justify-items: center;
-}
  
 
+.portfolio-list {
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+
+.ul-portfolio {
+  width: calc((100% - 2 * 24px) / 3);}
+img {width: 100%;}
+.portfolio-text {width: 100%;}
+
+.bottom-grid {
+  gap: 0;
+}
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 1158px) {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-  .form-footer {
-    margin-left: 80px;
-}
+
 .bottom-desctop {
   display: flex;
 }
 
-
+.form-footer {
+  margin-left: 0;
+}
 .bottom-logo {
   margin: 0 120px 0 0;
 
 }
+.bottom-icon-list {
+  margin-bottom: 0;
+}
+
+
 
 
 }
@@ -284,6 +317,7 @@ color: #434455;
 
 
 
+/* Фон десктоп */
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .section-one {
     background-repeat: no-repeat;
@@ -294,5 +328,7 @@ color: #434455;
   }
  
 
+
+  
  
 }
