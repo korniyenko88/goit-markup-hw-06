@@ -1,226 +1,236 @@
 /* Стилі Tablet */
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        margin: 0 auto;
-        padding: 0 16px;
-        
-      }
-
-      .header-nav {
-        height: 72px;
-      }
-
-      .nav-menu {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        gap: 40px;
-      }
-      .addres-nav {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin: 0;
-        padding: 0;
-      }
-      .nav-menu-button {
-        display: none;
-      }
-      .address-link {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-      }
-      .nav-logo {
-        margin-right: 120px;
-      }
-
-      .nav-link {
-        font-size: 16px;
-      }
-
-      .section-one {
-        width: 100%;
-        height: 436px;
-        padding-top: 112px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-  rgba(46, 47, 66, 0.7)), 
-  url(../images/officetablet.jpg);
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-      }
-
-      .main-title {
-        max-width: 496px;
-        font-size: 56px;
-        margin-bottom: 36px;
-      }
-
-      .button {
-        margin-bottom: 40px;
-        padding: 16px 32px;
-      }
-
-      .features-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 72px 24px;
-        
+  .container {
+      width: 768px;
+      margin: 0 auto;
+      padding: 0 16px;
+      
     }
 
-    .title-list {
-        text-align: start;
-    }
-  
-
-    .our-team-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 64px 24px;
-        justify-items: center;
-        
-    }
-    .ul-our-team {
-        gap: 50px;
+    .header-nav {
+      height: 72px;
     }
 
-    .portfolio-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 64px 24px;
-        justify-items: center;
+    .nav-menu {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 40px;
+    }
+    .addres-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-menu-button {
+      display: none;
+    }
+    .address-link {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.04em;
+    }
+    .nav-logo {
+      margin-right: 120px;
     }
 
- .bottom-logo {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  margin-left: 92px;
- }
- .bottom-text { 
+    .nav-link {
+      font-size: 16px;
+    }
+
+    .section-one {
+      width: 100%;
+      height: 436px;
+      padding-top: 112px;
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), 
+url(../images/officetablet.jpg);
+background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    }
+
+    .main-title {
+      max-width: 496px;
+      font-size: 56px;
+      margin-bottom: 36px;
+    }
+
+    .button {
+      margin-bottom: 40px;
+      padding: 16px 32px;
+    }
+
+    .features-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 72px 24px;
+      
+  }
+
+  .title-list {
+      text-align: start;
+  }
+.name-position {
   width: 264px;
- }
- .bottom-icon-list {
-  width: 208px;
- }
- .icon-text {
-  text-align: start;
- }
- 
+}
+
+  .our-team-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+    flex-direction: unset;
+    
+
+  }
+  .ul-our-team {
+    width: 264px;
+  }
+
+  .portfolio-text {width: 100%;}
+
+   img {width: 100%;}
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    justify-content: center;
+    flex-direction: unset;
+  }
+
+.bottom-logo {
+display: flex;
+flex-direction: column;
+text-align: start;
+margin-left: 92px;
+}
+.bottom-text { 
+width: 264px;
+}
+.bottom-icon-list {
+width: 208px;
+}
+.icon-text {
+text-align: start;
+}
+
 .bottom-grid {
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0px 24px;
+display:grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 0px 24px;
 }
 
 .form-footer {
-  margin-left: 92px;
+margin-left: 92px;
 }
 
 .form-label {
-  text-align: start;
+text-align: start;
 }
 
 .subscribe-form {
-  flex-direction: row;
+flex-direction: row;
 }
 
 .subscribe-item {
-  width: 264px;
+width: 264px;
 }
 
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .section-one {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)), url('../images/officetablet@2x.jpg');
-  }
-    
-    
+.section-one {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)), url('../images/officetablet@2x.jpg');
+}
+  
+  
 }
 
 /* Стилі Desktop */
 
 @media screen and (min-width: 1158px) {
-  .addres-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-  }
-  .address {
-    font-style: normal;
-    
-  }
+.addres-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.address {
+  font-style: normal;
+  
+}
 .container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
- 
-  }
-  .nav-logo {
-    margin-right: 72px;
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+
+}
+.nav-logo {
+  margin-right: 72px;
 }
 
 
 .address-link {
-  font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 
 }
 .button {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 .section-one {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
-  rgba(46, 47, 66, 0.7)), url('../images/officedestop1.jpg');
-  padding-bottom: 188px;
-  padding-top: 188px;
-  height: 600px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), url('../images/officedestop1.jpg');
+padding-bottom: 188px;
+padding-top: 188px;
+height: 600px;
 }
 .section-two-icon{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-  
-  }
-  .section-one-item {
-  width: calc((100% - 72px) / 4);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 112px;
+background-color: #f4f4fd;
+border-radius: 4px;
+border: 1px solid #8e8f99;
+margin-bottom: 8px;
+
+}
+.section-one-item {
+width: calc((100% - 72px) / 4);
 }
 .features-list {
-  display: flex;
-  
-  grid-gap: 72px 24px;
-  flex-direction: row;
+display: flex;
+
+grid-gap: 72px 24px;
+flex-direction: row;
 }
 .section-two {
-  padding: 120px 0;
-  margin: 0 auto;
+padding: 120px 0;
+margin: 0 auto;
 }
 
 
 .features-list {
-  display: flex;
-  gap: 24px;
-  flex-direction: row;
+display: flex;
+gap: 24px;
+flex-direction: row;
 
 
 }
@@ -239,37 +249,37 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .section-three {
-  padding: 120px 0;
+padding: 120px 0;
 }
 
 
 .our-team-list {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
+display: flex;
+flex-direction: row;
+gap: 24px;
 }
 
 .section-four {
-  padding: 120px 0;
+padding: 120px 0;
 }
- 
+
 
 .portfolio-list {
-  display: flex;
-  flex-direction: unset;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+display: flex;
+flex-direction: unset;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
 }
 
 
 .ul-portfolio {
-  width: calc((100% - 2 * 24px) / 3);}
+width: calc((100% - 2 * 24px) / 3);}
 img {width: 100%;}
 .portfolio-text {width: 100%;}
 
 .bottom-grid {
-  gap: 0;
+gap: 0;
 }
 
 
@@ -292,21 +302,21 @@ img {width: 100%;}
 
 
 @media screen and (min-width: 1158px) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
 
 .bottom-desctop {
-  display: flex;
+display: flex;
 }
 
 .form-footer {
-  margin-left: 0;
+margin-left: 0;
 }
 .bottom-logo {
-  margin: 0 120px 0 0;
+margin: 0 120px 0 0;
 
 }
 .bottom-icon-list {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 
@@ -319,16 +329,16 @@ img {width: 100%;}
 
 /* Фон десктоп */
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
-  .section-one {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)), url('../images/officedesctop1@2x.jpg');
-  }
- 
+.section-one {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:  linear-gradient(rgba(46, 47, 66, 0.7), 
+  rgba(46, 47, 66, 0.7)), url('../images/officedesctop1@2x.jpg');
+}
 
 
-  
- 
+
+
+
 }
